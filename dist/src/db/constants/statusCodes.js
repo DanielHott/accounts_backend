@@ -9,4 +9,4 @@ const statusCodes = {
     UNAUTHORIZED: 401,
     NO_CONTENT: 204,
 };
-exports.default = statusCodes;
+exports.default = statusCodes
