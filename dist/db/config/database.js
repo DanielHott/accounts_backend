@@ -8,5 +8,5 @@ const config = {
     port: Number(process.env.PG_PORT),
     dialect: 'postgres',
 };
-export default config;
+module.exports = config;
 //# sourceMappingURL=database.js.map

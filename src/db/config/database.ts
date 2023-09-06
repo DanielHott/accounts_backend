@@ -9,5 +9,4 @@ const config: Options = {
   port: Number(process.env.PG_PORT),
   dialect: 'postgres',
 }
-
-export = config;
+module.exports = config;
